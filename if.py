@@ -43,3 +43,14 @@ else:
 
 #O elif permite verificar várias condições em sequência, e o bloco de código correspondente à primeira condição verdadeira será executado. Se nenhuma das condições for verdadeira, o bloco de código do `else` será executado.
 
+print("--- Exemplo 4: Condicionais com operadores logicos (and, or, not) ---")
+temperatura = 15
+chovendo = False
+print(f"Condições atuais -> Temperatura: {temperatura}°C, Chovendo: {chovendo}")
+
+if temperatura > 20 and not chovendo:
+    print("Está um dia agradavel para passear.")
+elif temperatura <= 15 or chovendo:
+    print("Talvez seja melhor ficar em casa hoje.")
+else:
+    print("O tempo ta bao!.")
