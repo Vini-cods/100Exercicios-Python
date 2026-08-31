@@ -21,3 +21,25 @@ if idade >= 18:
     print("Acesso permitido. Você é maior de idade.")
 else:
     print("Acesso negado. Você é menor de idade.")
+
+# O comando `elif` (abreviação de "else if") permite verificar múltiplas condições.
+
+print("--- Exemplo 3: if-elif-else ---")
+nota = 85
+print(f"Nota informada: {nota}")
+
+if nota >= 90:
+    print("Parabéns! Você obteve um excelente desempenho.")
+elif nota >= 80:
+    print("Você obteve um bom desempenho.")
+elif nota >= 70:
+    print("Você obteve um desempenho satisfatório.")
+elif nota >= 60:
+    print("Você obteve um desempenho regular.")
+elif nota >= 50:
+    print("Você obteve um desempenho abaixo da média.")
+else:
+   print("Você precisa melhorar.") 
+
+#O elif permite verificar várias condições em sequência, e o bloco de código correspondente à primeira condição verdadeira será executado. Se nenhuma das condições for verdadeira, o bloco de código do `else` será executado.
+
