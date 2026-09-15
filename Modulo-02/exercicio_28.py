@@ -1,13 +1,19 @@
+﻿# Esse exercício me ajudou a fixar a lógica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
+# Esse exercÃ­cio me ajudou a fixar a lÃ³gica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
 """
-Módulo 02 - Estruturas Condicionais
-Exercício 28 - É possível formar um triângulo?
+MÃ³dulo 02 - Estruturas Condicionais
+ExercÃ­cio 28 - Ã‰ possÃ­vel formar um triÃ¢ngulo?
 
 Enunciado:
-Leia três medidas positivas e informe se elas podem formar um
-triângulo.
+Leia trÃªs medidas positivas e informe se elas podem formar um
+triÃ¢ngulo.
 
 Regra:
-Três lados formam um triângulo quando cada lado é menor que a soma
+TrÃªs lados formam um triÃ¢ngulo quando cada lado Ã© menor que a soma
 dos outros dois.
 """
 
@@ -22,13 +28,14 @@ b = ler_float("Lado 2: ")
 c = ler_float("Lado 3: ")
 
 if a < b + c and b < a + c and c < a + b:
-    resultado = "FORMAM UM TRIÂNGULO"
+    resultado = "FORMAM UM TRIÃ‚NGULO"
 else:
-    resultado = "NÃO FORMAM UM TRIÂNGULO"
+    resultado = "NÃƒO FORMAM UM TRIÃ‚NGULO"
 
 print(f"\nResultado: {resultado}")
 
 # Teste seu programa (valores da apostila):
 # 2, 2, 3  -> FORMAM
-# 1, 2, 3  -> NÃO FORMAM
-# 5, 5, 10 -> NÃO FORMAM
+# 1, 2, 3  -> NÃƒO FORMAM
+# 5, 5, 10 -> NÃƒO FORMAM
+

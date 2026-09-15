@@ -1,19 +1,25 @@
+﻿# Esse exercício me ajudou a fixar a lógica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
+# Esse exercÃ­cio me ajudou a fixar a lÃ³gica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
 """
-Módulo 02 - Estruturas Condicionais
-Exercício 30 - Aprovação de empréstimo
+MÃ³dulo 02 - Estruturas Condicionais
+ExercÃ­cio 30 - AprovaÃ§Ã£o de emprÃ©stimo
 
 Enunciado:
-Leia o valor de um imóvel, o salário mensal do comprador e o prazo de
-pagamento em anos. Calcule a prestação mensal e informe se o
-empréstimo foi aprovado.
+Leia o valor de um imÃ³vel, o salÃ¡rio mensal do comprador e o prazo de
+pagamento em anos. Calcule a prestaÃ§Ã£o mensal e informe se o
+emprÃ©stimo foi aprovado.
 
 Regra:
-Prestação = valor do imóvel / (anos x 12)
-O empréstimo é aprovado quando a prestação não ultrapassa 30% do
-salário.
+PrestaÃ§Ã£o = valor do imÃ³vel / (anos x 12)
+O emprÃ©stimo Ã© aprovado quando a prestaÃ§Ã£o nÃ£o ultrapassa 30% do
+salÃ¡rio.
 
 Requisito:
-Mostre o valor da prestação e o limite de 30% do salário.
+Mostre o valor da prestaÃ§Ã£o e o limite de 30% do salÃ¡rio.
 """
 
 
@@ -28,8 +34,8 @@ def formatar_moeda(valor):
     return f"R$ {texto}"
 
 
-valor_imovel = ler_float("Valor do imóvel: R$ ")
-salario = ler_float("Salário: R$ ")
+valor_imovel = ler_float("Valor do imÃ³vel: R$ ")
+salario = ler_float("SalÃ¡rio: R$ ")
 anos = int(input("Prazo (anos): "))
 
 prestacao = valor_imovel / (anos * 12)
@@ -40,11 +46,12 @@ if prestacao <= limite:
 else:
     resultado = "NEGADO"
 
-print(f"\nPrestação: {formatar_moeda(prestacao)}")
+print(f"\nPrestaÃ§Ã£o: {formatar_moeda(prestacao)}")
 print(f"Limite: {formatar_moeda(limite)}")
 print(f"Resultado: {resultado}")
 
 # Teste seu programa (valores da apostila):
-# R$ 120.000, salário R$ 2.000, 20 anos -> APROVADO
-# R$ 300.000, salário R$ 3.000, 15 anos -> NEGADO
-# R$ 216.000, salário R$ 2.000, 30 anos -> APROVADO
+# R$ 120.000, salÃ¡rio R$ 2.000, 20 anos -> APROVADO
+# R$ 300.000, salÃ¡rio R$ 3.000, 15 anos -> NEGADO
+# R$ 216.000, salÃ¡rio R$ 2.000, 30 anos -> APROVADO
+

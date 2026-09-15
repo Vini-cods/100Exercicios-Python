@@ -27,11 +27,18 @@ O material foi estruturado como um conjunto de atividades de estudo, com arquivo
 100Exercicios-Python/
 ├── README.md
 ├── Apoio-de-estudo/
-│   ├── README.md
-│   ├── if.py
+│   ├── and.py
 │   ├── elif.py
 │   ├── else.py
-│   └── for.py
+│   ├── for.py
+│   ├── if.py
+│   ├── in.py
+│   ├── is.py
+│   ├── not.py
+│   ├── or.py
+│   ├── range.py
+│   ├── tuplas.py
+│   └── while.py
 ├── Modulo-01/
 │   ├── exercicio_01.py
 │   ├── exercicio_02.py
@@ -66,7 +73,8 @@ O material foi estruturado como um conjunto de atividades de estudo, com arquivo
 │   ├── exercicio_33.py
 │   ├── exercicio_34.py
 │   └── exercicio_35.py
-└── Fluxogramas.pdf
+├── Fluxogramas.pdf
+└── .gitignore
 ```
 
 ---

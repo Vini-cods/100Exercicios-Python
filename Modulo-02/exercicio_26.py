@@ -1,17 +1,23 @@
+﻿# Esse exercício me ajudou a fixar a lógica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
+# Esse exercÃ­cio me ajudou a fixar a lÃ³gica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
 """
-Módulo 02 - Estruturas Condicionais
-Exercício 26 - Reajuste por faixa salarial
+MÃ³dulo 02 - Estruturas Condicionais
+ExercÃ­cio 26 - Reajuste por faixa salarial
 
 Enunciado:
-Leia o salário atual e calcule o novo salário conforme a tabela de
+Leia o salÃ¡rio atual e calcule o novo salÃ¡rio conforme a tabela de
 reajuste.
 
 Requisito:
-Mostre o percentual aplicado, o valor do aumento e o novo salário.
+Mostre o percentual aplicado, o valor do aumento e o novo salÃ¡rio.
 
-Regras do exercício:
-Até R$ 1.500,00                     -> 15%
-De R$ 1.500,01 até R$ 3.000,00      -> 10%
+Regras do exercÃ­cio:
+AtÃ© R$ 1.500,00                     -> 15%
+De R$ 1.500,01 atÃ© R$ 3.000,00      -> 10%
 Acima de R$ 3.000,00                -> 5%
 """
 
@@ -27,7 +33,7 @@ def formatar_moeda(valor):
     return f"R$ {texto}"
 
 
-salario = ler_float("Salário atual: R$ ")
+salario = ler_float("SalÃ¡rio atual: R$ ")
 
 if salario <= 1500:
     percentual = 0.15
@@ -41,9 +47,10 @@ novo_salario = salario + aumento
 
 print(f"\nPercentual aplicado: {int(percentual * 100)}%")
 print(f"Valor do aumento: {formatar_moeda(aumento)}")
-print(f"Novo salário: {formatar_moeda(novo_salario)}")
+print(f"Novo salÃ¡rio: {formatar_moeda(novo_salario)}")
 
 # Teste seu programa (valores da apostila):
-# R$ 1.500,00 -> 15% -> Novo salário R$ 1.725,00
-# R$ 3.000,00 -> 10% -> Novo salário R$ 3.300,00
-# R$ 4.000,00 -> 5%  -> Novo salário R$ 4.200,00
+# R$ 1.500,00 -> 15% -> Novo salÃ¡rio R$ 1.725,00
+# R$ 3.000,00 -> 10% -> Novo salÃ¡rio R$ 3.300,00
+# R$ 4.000,00 -> 5%  -> Novo salÃ¡rio R$ 4.200,00
+
