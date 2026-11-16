@@ -1,25 +1,32 @@
+﻿# Esse exercício me ajudou a fixar a lógica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
+# Esse exercÃ­cio me ajudou a fixar a lÃ³gica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
 """
-Módulo 02 - Estruturas Condicionais
-Exercício 17 - Par ou ímpar
+MÃ³dulo 02 - Estruturas Condicionais
+ExercÃ­cio 17 - Par ou Ã­mpar
 
 Enunciado:
-Leia um número inteiro e informe se ele é par ou ímpar.
+Leia um nÃºmero inteiro e informe se ele Ã© par ou Ã­mpar.
 
 Regra:
-Um número é par quando o resto da divisão por 2 é igual a zero.
-(Isso vale também para números negativos: -8 % 2 == 0.)
+Um nÃºmero Ã© par quando o resto da divisÃ£o por 2 Ã© igual a zero.
+(Isso vale tambÃ©m para nÃºmeros negativos: -8 % 2 == 0.)
 """
 
-numero = int(input("Digite um número: "))
+numero = int(input("Digite um nÃºmero: "))
 
 if numero % 2 == 0:
     resultado = "PAR"
 else:
-    resultado = "ÍMPAR"
+    resultado = "ÃMPAR"
 
 print(f"\nResultado: {resultado}")
 
 # Teste seu programa (valores da apostila):
-# 13  -> ÍMPAR
+# 13  -> ÃMPAR
 # 0   -> PAR
 # -8  -> PAR
+

@@ -1,10 +1,16 @@
+﻿# Esse exercício me ajudou a fixar a lógica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
+# Esse exercÃ­cio me ajudou a fixar a lÃ³gica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
 """
-Módulo 02 - Estruturas Condicionais
-Exercício 32 - Número dentro do intervalo
+MÃ³dulo 02 - Estruturas Condicionais
+ExercÃ­cio 32 - NÃºmero dentro do intervalo
 
 Enunciado:
-Leia um número real e informe se ele está dentro do intervalo fechado
-de 10 até 20.
+Leia um nÃºmero real e informe se ele estÃ¡ dentro do intervalo fechado
+de 10 atÃ© 20.
 
 Regra:
 Os valores 10 e 20 pertencem ao intervalo (intervalo fechado).
@@ -16,7 +22,7 @@ def ler_float(mensagem):
     return float(texto)
 
 
-numero = ler_float("Digite um número: ")
+numero = ler_float("Digite um nÃºmero: ")
 
 if 10 <= numero <= 20:
     resultado = "DENTRO"
@@ -30,3 +36,4 @@ print(f"\nResultado: {resultado}")
 # 15,5 -> DENTRO
 # 20   -> DENTRO
 # 20,1 -> FORA
+

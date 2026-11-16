@@ -1,22 +1,28 @@
+﻿# Esse exercício me ajudou a fixar a lógica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
+# Esse exercÃ­cio me ajudou a fixar a lÃ³gica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
 """
-Módulo 02 - Estruturas Condicionais
-Exercício 27 - Classificação de IMC
+MÃ³dulo 02 - Estruturas Condicionais
+ExercÃ­cio 27 - ClassificaÃ§Ã£o de IMC
 
 Enunciado:
 Leia o peso em quilogramas e a altura em metros. Calcule o IMC e
-classifique o resultado usando apenas as regras didáticas da tabela.
+classifique o resultado usando apenas as regras didÃ¡ticas da tabela.
 
 Regra:
 IMC = peso / (altura x altura)
 
-Regras do exercício:
+Regras do exercÃ­cio:
 Menor que 18,5                       -> ABAIXO DA FAIXA
 Maior ou igual a 18,5 e menor que 25 -> FAIXA NORMAL
 Maior ou igual a 25 e menor que 30   -> ACIMA DA FAIXA
 Maior ou igual a 30                  -> FAIXA ELEVADA
 
-Observação: classificação didática usada apenas para praticar lógica
-de programação, não é orientação médica.
+ObservaÃ§Ã£o: classificaÃ§Ã£o didÃ¡tica usada apenas para praticar lÃ³gica
+de programaÃ§Ã£o, nÃ£o Ã© orientaÃ§Ã£o mÃ©dica.
 """
 
 
@@ -44,9 +50,10 @@ else:
     classificacao = "FAIXA ELEVADA"
 
 print(f"\nIMC: {formatar(imc)}")
-print(f"Classificação: {classificacao}")
+print(f"ClassificaÃ§Ã£o: {classificacao}")
 
 # Teste seu programa (valores da apostila):
 # 50 kg, 1,70 m -> ABAIXO DA FAIXA
 # 80 kg, 1,80 m -> FAIXA NORMAL
 # 90 kg, 1,70 m -> FAIXA ELEVADA
+

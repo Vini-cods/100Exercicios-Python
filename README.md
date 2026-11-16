@@ -27,11 +27,18 @@ O material foi estruturado como um conjunto de atividades de estudo, com arquivo
 100Exercicios-Python/
 ├── README.md
 ├── Apoio-de-estudo/
-│   ├── README.md
-│   ├── if.py
+│   ├── and.py
 │   ├── elif.py
 │   ├── else.py
-│   └── for.py
+│   ├── for.py
+│   ├── if.py
+│   ├── in.py
+│   ├── is.py
+│   ├── not.py
+│   ├── or.py
+│   ├── range.py
+│   ├── tuplas.py
+│   └── while.py
 ├── Modulo-01/
 │   ├── exercicio_01.py
 │   ├── exercicio_02.py
@@ -66,7 +73,8 @@ O material foi estruturado como um conjunto de atividades de estudo, com arquivo
 │   ├── exercicio_33.py
 │   ├── exercicio_34.py
 │   └── exercicio_35.py
-└── Fluxogramas.pdf
+├── Fluxogramas.pdf
+└── .gitignore
 ```
 
 ---
@@ -133,12 +141,21 @@ Esse módulo foi importante porque introduziu uma parte mais profunda da program
 
 ---
 
+## Executáveis e por que eles existem
+
+Alguns exercícios deste repositório incluem arquivos com extensão `.bat`, como `exercicio_16.bat`, `exercicio_17.bat` e assim por diante. Esses arquivos são executáveis do sistema operacional Windows e servem como uma camada simples para rodar o script Python correspondente.
+
+Em termos práticos, o `.bat` funciona como um atalho automatizado.
+
+---
+
 ## Observações
 
 - Os arquivos estão organizados por módulo e por sequência numérica.
 - O estudo foi desenvolvido de forma gradual, começando pelos fundamentos e avançando para estruturas condicionais mais complexas.
 - A pasta `Apoio-de-estudo` reúne materiais complementares com exemplos práticos sobre `if`, `elif`, `else` e `for`.
 - O arquivo `Fluxogramas.pdf` complementa a parte visual do conteúdo e auxilia na compreensão da lógica por meio de representações gráficas.
+- Os arquivos `.bat` existem para simplificar a execução no Windows e servir como atalho para os scripts em Python.
 
 ---
 

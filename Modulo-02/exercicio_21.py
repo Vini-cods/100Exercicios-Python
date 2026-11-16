@@ -1,13 +1,19 @@
+﻿# Esse exercício me ajudou a fixar a lógica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
+# Esse exercÃ­cio me ajudou a fixar a lÃ³gica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
 """
-Módulo 02 - Estruturas Condicionais
-Exercício 21 - Aprovado ou reprovado
+MÃ³dulo 02 - Estruturas Condicionais
+ExercÃ­cio 21 - Aprovado ou reprovado
 
 Enunciado:
-Leia duas notas, calcule a média e informe se o aluno foi aprovado
+Leia duas notas, calcule a mÃ©dia e informe se o aluno foi aprovado
 ou reprovado.
 
 Regra:
-Média maior ou igual a 7,0 significa APROVADO.
+MÃ©dia maior ou igual a 7,0 significa APROVADO.
 Abaixo de 7,0 significa REPROVADO.
 """
 
@@ -31,10 +37,11 @@ if media >= 7:
 else:
     situacao = "REPROVADO"
 
-print(f"\nMédia: {formatar(media)}")
-print(f"Situação: {situacao}")
+print(f"\nMÃ©dia: {formatar(media)}")
+print(f"SituaÃ§Ã£o: {situacao}")
 
 # Teste seu programa (valores da apostila):
-# 5,0 e 8,0  -> Média 6,5 -> REPROVADO
-# 7,0 e 7,0  -> Média 7,0 -> APROVADO
-# 10,0 e 9,0 -> Média 9,5 -> APROVADO
+# 5,0 e 8,0  -> MÃ©dia 6,5 -> REPROVADO
+# 7,0 e 7,0  -> MÃ©dia 7,0 -> APROVADO
+# 10,0 e 9,0 -> MÃ©dia 9,5 -> APROVADO
+

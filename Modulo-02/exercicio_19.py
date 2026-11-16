@@ -1,15 +1,21 @@
+﻿# Esse exercício me ajudou a fixar a lógica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
+# Esse exercÃ­cio me ajudou a fixar a lÃ³gica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
 """
-Módulo 02 - Estruturas Condicionais
-Exercício 19 - Maior e menor de três números
+MÃ³dulo 02 - Estruturas Condicionais
+ExercÃ­cio 19 - Maior e menor de trÃªs nÃºmeros
 
 Enunciado:
-Leia três números reais e mostre o maior e o menor valor informado.
+Leia trÃªs nÃºmeros reais e mostre o maior e o menor valor informado.
 
 Requisito:
-O programa deve funcionar também quando houver valores repetidos.
+O programa deve funcionar tambÃ©m quando houver valores repetidos.
 """
 
-entrada = input("Valores (separados por vírgula): ")
+entrada = input("Valores (separados por vÃ­rgula): ")
 valores = [float(v.strip().replace(",", ".")) for v in entrada.split(",")]
 
 maior = max(valores)
@@ -29,3 +35,4 @@ print(f"Menor: {fmt_num(menor)}")
 # 3, 9, 5    -> Maior: 9  | Menor: 3
 # -4, -1, -7 -> Maior: -1 | Menor: -7
 # 6, 6, 2    -> Maior: 6  | Menor: 2
+

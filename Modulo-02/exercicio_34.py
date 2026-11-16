@@ -1,9 +1,15 @@
+﻿# Esse exercício me ajudou a fixar a lógica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
+# Esse exercÃ­cio me ajudou a fixar a lÃ³gica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
 """
-Módulo 02 - Estruturas Condicionais
-Exercício 34 - Quantidade de dias do mês
+MÃ³dulo 02 - Estruturas Condicionais
+ExercÃ­cio 34 - Quantidade de dias do mÃªs
 
 Enunciado:
-Leia o número de um mês e um ano. Mostre quantos dias o mês possui.
+Leia o nÃºmero de um mÃªs e um ano. Mostre quantos dias o mÃªs possui.
 
 Regra:
 Meses 1, 3, 5, 7, 8, 10 e 12 possuem 31 dias.
@@ -11,10 +17,10 @@ Meses 4, 6, 9 e 11 possuem 30 dias.
 Fevereiro possui 28 dias, ou 29 em ano bissexto.
 
 Requisito:
-Se o mês estiver fora de 1 a 12, mostre MÊS INVÁLIDO.
+Se o mÃªs estiver fora de 1 a 12, mostre MÃŠS INVÃLIDO.
 """
 
-mes = int(input("Mês: "))
+mes = int(input("MÃªs: "))
 ano = int(input("Ano: "))
 
 meses_31_dias = (1, 3, 5, 7, 8, 10, 12)
@@ -31,13 +37,14 @@ else:
     dias = None
 
 if dias is None:
-    print("\nResultado: MÊS INVÁLIDO")
+    print("\nResultado: MÃŠS INVÃLIDO")
 else:
     print(f"\nResultado: {dias} dias")
 
 # Teste seu programa (valores da apostila):
-# Mês 2,  Ano 2024 -> 29 dias
-# Mês 2,  Ano 2023 -> 28 dias
-# Mês 4,  Ano 2026 -> 30 dias
-# Mês 12, Ano 2026 -> 31 dias
-# Mês 13, Ano 2026 -> MÊS INVÁLIDO
+# MÃªs 2,  Ano 2024 -> 29 dias
+# MÃªs 2,  Ano 2023 -> 28 dias
+# MÃªs 4,  Ano 2026 -> 30 dias
+# MÃªs 12, Ano 2026 -> 31 dias
+# MÃªs 13, Ano 2026 -> MÃŠS INVÃLIDO
+

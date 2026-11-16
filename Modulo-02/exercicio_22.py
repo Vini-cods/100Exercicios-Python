@@ -1,15 +1,21 @@
+﻿# Esse exercício me ajudou a fixar a lógica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
+# Esse exercÃ­cio me ajudou a fixar a lÃ³gica do problema.
+# Eu li os dados, apliquei a regra e mostrei o resultado.
+
 """
-Módulo 02 - Estruturas Condicionais
-Exercício 22 - Situação do aluno por faixa
+MÃ³dulo 02 - Estruturas Condicionais
+ExercÃ­cio 22 - SituaÃ§Ã£o do aluno por faixa
 
 Enunciado:
-Leia duas notas, calcule a média e informe a situação do aluno
+Leia duas notas, calcule a mÃ©dia e informe a situaÃ§Ã£o do aluno
 conforme a tabela.
 
-Regras do exercício:
-Média < 5,0                     -> REPROVADO
-Média >= 5,0 e < 7,0             -> RECUPERAÇÃO
-Média >= 7,0                     -> APROVADO
+Regras do exercÃ­cio:
+MÃ©dia < 5,0                     -> REPROVADO
+MÃ©dia >= 5,0 e < 7,0             -> RECUPERAÃ‡ÃƒO
+MÃ©dia >= 7,0                     -> APROVADO
 """
 
 
@@ -30,14 +36,15 @@ media = (nota1 + nota2) / 2
 if media < 5:
     situacao = "REPROVADO"
 elif media < 7:
-    situacao = "RECUPERAÇÃO"
+    situacao = "RECUPERAÃ‡ÃƒO"
 else:
     situacao = "APROVADO"
 
-print(f"\nMédia: {formatar(media)}")
-print(f"Situação: {situacao}")
+print(f"\nMÃ©dia: {formatar(media)}")
+print(f"SituaÃ§Ã£o: {situacao}")
 
 # Teste seu programa (valores da apostila):
-# 4,0 e 5,0 -> Média 4,5 -> REPROVADO
-# 5,0 e 5,0 -> Média 5,0 -> RECUPERAÇÃO
-# 7,0 e 7,0 -> Média 7,0 -> APROVADO
+# 4,0 e 5,0 -> MÃ©dia 4,5 -> REPROVADO
+# 5,0 e 5,0 -> MÃ©dia 5,0 -> RECUPERAÃ‡ÃƒO
+# 7,0 e 7,0 -> MÃ©dia 7,0 -> APROVADO
+
